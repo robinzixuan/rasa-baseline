@@ -1,0 +1,1070 @@
+,intent
+Where is the permanent store?,faq/address
+How to reach store?,faq/address
+Where is clothes store?,faq/address
+Address of clothes store,faq/address
+,recommend
+Do you accept checks?,faq/payments
+How should I finish my purchase?,faq/payments
+Are you cash only?,faq/payments
+Do you take credit cards?,faq/payments
+How to make a payment?,faq/payments
+Emergency contact details,faq/contact
+Contact admin,faq/contact
+Contact details of incharge,faq/contact
+"Can't find answers, how do I contact the store?",faq/contact
+Contact details of faculty,faq/contact
+Email id of Admin or incharge,faq/contact
+How do I contact staff?,faq/contact
+You send me wrong color,faq/return
+The product is not suit for me,faq/return
+I buy a clothes not correct size,faq/return
+You send me wrong product,faq/return
+i dislike this product,faq/return
+I buy the clothes mistakenly,faq/return
+Do you offer retuen Service,faq/return
+You send me wrong size,faq/return
+are you positive?,chitchat/agent_sure
+are you completely sure?,chitchat/agent_sure
+are you sure today?,chitchat/agent_sure
+are you sure about it?,chitchat/agent_sure
+are you fully positive?,chitchat/agent_sure
+are you truly positive?,chitchat/agent_sure
+are you sure right now?,chitchat/agent_sure
+are you sure tonight?,chitchat/agent_sure
+are you so sure?,chitchat/agent_sure
+you are there,chitchat/agent_there
+you are here?,chitchat/agent_there
+are you here ?,chitchat/agent_there
+are you here,chitchat/agent_there
+you there?,chitchat/agent_there
+are you there,chitchat/agent_there
+are you still here,chitchat/agent_there
+are you still there,chitchat/agent_there
+you still there?,chitchat/agent_there
+anytime,chitchat/appraisal_welcome
+my pleasure,chitchat/appraisal_welcome
+welcome here,chitchat/appraisal_welcome
+welcome,chitchat/appraisal_welcome
+you're welcome,chitchat/appraisal_welcome
+that's my pleasure,chitchat/appraisal_welcome
+i'm glad,chitchat/appraisal_welcome
+anything you want,chitchat/appraisal_welcome
+sure welcome,chitchat/appraisal_welcome
+I want to see you again,chitchat/user_wants_to_see_agent_again
+I will see you soon,chitchat/user_wants_to_see_agent_again
+that'd be great to see you again,chitchat/user_wants_to_see_agent_again
+let's catch up soon,chitchat/user_wants_to_see_agent_again
+I hope to see you again,chitchat/user_wants_to_see_agent_again
+would be nice to see you again,chitchat/user_wants_to_see_agent_again
+I'd be happy to see you again,chitchat/user_wants_to_see_agent_again
+i want to see you again soon,chitchat/user_wants_to_see_agent_again
+let's meet soon,chitchat/user_wants_to_see_agent_again
+no probs,chitchat/appraisal_no_problem
+don't worry,chitchat/appraisal_no_problem
+don't worry there's no problem,chitchat/appraisal_no_problem
+no problem about that,chitchat/appraisal_no_problem
+sure no problem,chitchat/appraisal_no_problem
+not a problem at all.,chitchat/appraisal_no_problem
+"yeah, no probs",chitchat/appraisal_no_problem
+there's no problem,chitchat/appraisal_no_problem
+no problem,chitchat/appraisal_no_problem
+wheey,chitchat/emotions_wow
+woaah,chitchat/emotions_wow
+woah,chitchat/emotions_wow
+wooow,chitchat/emotions_wow
+whoah,chitchat/emotions_wow
+woow,chitchat/emotions_wow
+wow wow wow,chitchat/emotions_wow
+wow!!,chitchat/emotions_wow
+amazing,chitchat/appraisal_good
+wow,chitchat/emotions_wow
+time for us to go to bed,chitchat/user_going_to_bed
+I sometimes feel drowsy in the early afternoon,chitchat/user_going_to_bed
+it's time to go to bed,chitchat/user_going_to_bed
+time to sleep,chitchat/user_going_to_bed
+going to bed now,chitchat/user_going_to_bed
+is it time for bed yet,chitchat/user_going_to_bed
+gonna go to bed,chitchat/user_going_to_bed
+it's bed time,chitchat/user_going_to_bed
+I'd like to go to bed,chitchat/user_going_to_bed
+you are not real,chitchat/agent_real
+you are real,chitchat/agent_real
+are you real?,chitchat/agent_real
+are you a real person?,chitchat/agent_real
+I think you are real,chitchat/agent_real
+glad you're real,chitchat/agent_real
+are you real,chitchat/agent_real
+I suppose you're real,chitchat/agent_real
+you are not fake,chitchat/agent_real
+you are a real person,chitchat/agent_real
+are you a real human?,chitchat/agent_real
+I don't want to talk,chitchat/user_does_not_want_to_talk
+I'm not in the mood for chatting,chitchat/user_does_not_want_to_talk
+Let's stop talking,chitchat/user_does_not_want_to_talk
+I'm not in a mood to talk,chitchat/user_does_not_want_to_talk
+bad time for talking,chitchat/user_does_not_want_to_talk
+I'm not talking to you anymore,chitchat/user_does_not_want_to_talk
+I don't like talking to you,chitchat/user_does_not_want_to_talk
+Can u pls stop talking,chitchat/user_does_not_want_to_talk
+let's not talk,chitchat/user_does_not_want_to_talk
+let's stop talking for a minute,chitchat/user_does_not_want_to_talk
+are you artificially intelligent?,chitchat/agent_chatbot
+are you a bot,chitchat/agent_chatbot
+are you just a bot,chitchat/agent_chatbot
+are you an AI?,chitchat/agent_chatbot
+you are chatbot,chitchat/agent_chatbot
+are you a robot,chitchat/agent_chatbot
+are you a chatbot,chitchat/agent_chatbot
+you're a robot,chitchat/agent_chatbot
+are you a program,chitchat/agent_chatbot
+you're an AI,chitchat/agent_chatbot
+you are a bot,chitchat/agent_chatbot
+hold on man,chitchat/dialog_hold_on
+wait hold on,chitchat/dialog_hold_on
+hold on,chitchat/dialog_hold_on
+wait one sec,chitchat/dialog_hold_on
+hold on for a sec,chitchat/dialog_hold_on
+wait a sec,chitchat/dialog_hold_on
+oh wait,chitchat/dialog_hold_on
+could you wait,chitchat/dialog_hold_on
+wait please,chitchat/dialog_hold_on
+wait,chitchat/dialog_hold_on
+don't rush,chitchat/dialog_hold_on
+will u pls wait for a sec,chitchat/dialog_hold_on
+I am right back,chitchat/user_back
+I'm here again,chitchat/user_back
+I am back,chitchat/user_back
+I'm here,chitchat/user_back
+I got back,chitchat/user_back
+look who is back,chitchat/user_back
+I'm back again,chitchat/user_back
+I'm rb,chitchat/user_back
+I'm back,chitchat/user_back
+here I am again,chitchat/user_back
+am back,chitchat/user_back
+am i good looking?,chitchat/user_looks_like
+how do I look?,chitchat/user_looks_like
+Whom do i look like?,chitchat/user_looks_like
+how do I look like,chitchat/user_looks_like
+do you know what I look like ?,chitchat/user_looks_like
+do u think i look good?,chitchat/user_looks_like
+what do you think about my looks,chitchat/user_looks_like
+what do I look like,chitchat/user_looks_like
+can you tell what I look like ?,chitchat/user_looks_like
+what do you think I look like?,chitchat/user_looks_like
+any idea of how good i look like?,chitchat/user_looks_like
+Ain't i look good?,chitchat/user_looks_like
+I love you,chitchat/user_loves_agent
+do you love me ?,chitchat/user_loves_agent
+I think I love you,chitchat/user_loves_agent
+I love you so much,chitchat/user_loves_agent
+I love u to the moon and back,chitchat/user_loves_agent
+I am in love with you,chitchat/user_loves_agent
+I am in deep love with you,chitchat/user_loves_agent
+I adore you,chitchat/user_loves_agent
+loving you,chitchat/user_loves_agent
+I love you too,chitchat/user_loves_agent
+you know I love you,chitchat/user_loves_agent
+my heart is filled with you,chitchat/user_loves_agent
+no just cancel,chitchat/confirmation_cancel
+cancel everything,chitchat/confirmation_cancel
+no cancel cancel,chitchat/confirmation_cancel
+disregard,chitchat/confirmation_cancel
+i want to cancel,chitchat/confirmation_cancel
+cancelled,chitchat/confirmation_cancel
+cancel it now,chitchat/confirmation_cancel
+shall stand cancelled,chitchat/confirmation_cancel
+don't want cancel,chitchat/confirmation_cancel
+cancel soon,chitchat/confirmation_cancel
+nevermind forget about it,chitchat/confirmation_cancel
+nothing just forget it,chitchat/confirmation_cancel
+sorry cancel,chitchat/confirmation_cancel
+here I am,chitchat/user_here
+here dude,chitchat/user_here
+I'm already here,chitchat/user_here
+Look over here,chitchat/user_here
+I'm out here,chitchat/user_here
+I'm right here,chitchat/user_here
+here buddy,chitchat/user_here
+I just got here,chitchat/user_here
+Now look here,chitchat/user_here
+Here i come,chitchat/user_here
+I am here,chitchat/user_here
+I've not gone anywhere,chitchat/user_here
+I'm here only,chitchat/user_here
+of course I like you,chitchat/user_likes_agent
+yes you are special,chitchat/user_likes_agent
+I like you too much,chitchat/user_likes_agent
+you're awesome I like you,chitchat/user_likes_agent
+I really really really really like you,chitchat/user_likes_agent
+you're so special,chitchat/user_likes_agent
+but I like u,chitchat/user_likes_agent
+I like you too you're one of my favorite people to chat with,chitchat/user_likes_agent
+I like you just the way you are,chitchat/user_likes_agent
+I like you,chitchat/user_likes_agent
+I also like you,chitchat/user_likes_agent
+good I like you,chitchat/user_likes_agent
+I like you as you are,chitchat/user_likes_agent
+I like your smile,chitchat/user_likes_agent
+I felt excited,chitchat/user_excited
+I'm excited to start our friendship,chitchat/user_excited
+I'm damn excited,chitchat/user_excited
+I'm very excited,chitchat/user_excited
+I'm really excited,chitchat/user_excited
+i'm excited about tomorrow,chitchat/user_excited
+It was very exciting! I'd like to use this feature again,chitchat/user_excited
+I am excited,chitchat/user_excited
+I'm thrilled,chitchat/user_excited
+How exciting!,chitchat/user_excited
+I'm hyped,chitchat/user_excited
+I'm excited about working with you,chitchat/user_excited
+It's fun and exciting,chitchat/user_excited
+I am thrilled to talk to you,chitchat/user_excited
+I miss you a lot,chitchat/user_misses_agent
+I'll miss you,chitchat/user_misses_agent
+I miss talking with you,chitchat/user_misses_agent
+I've missed you,chitchat/user_misses_agent
+I missed you,chitchat/user_misses_agent
+I just miss you,chitchat/user_misses_agent
+I miss you very much,chitchat/user_misses_agent
+miss you buddy,chitchat/user_misses_agent
+I really miss you,chitchat/user_misses_agent
+I miss you already,chitchat/user_misses_agent
+I miss you,chitchat/user_misses_agent
+We'll miss you,chitchat/user_misses_agent
+I'll miss you so much,chitchat/user_misses_agent
+miss you,chitchat/user_misses_agent
+miss you :(,chitchat/user_misses_agent
+I'm feeling great,chitchat/user_good
+I'm in a good mood,chitchat/user_good
+good,chitchat/appraisal_good
+I'm doing really good,chitchat/user_good
+I am good,chitchat/user_good
+I'm super good,chitchat/user_good
+That feels good,chitchat/user_good
+I am really good,chitchat/user_good
+I'm doing good,chitchat/user_good
+I feel very good,chitchat/user_good
+It's good,chitchat/user_good
+I'm great thanks,chitchat/user_good
+I feel good,chitchat/user_good
+I feel good today,chitchat/user_good
+I'm doing just great,chitchat/user_good
+i feel happy,chitchat/user_happy
+I was the happiest man on earth,chitchat/user_happy
+i was so happy,chitchat/user_happy
+happy,chitchat/user_happy
+I'm happy to help,chitchat/user_happy
+Feeling happy,chitchat/user_happy
+Nobody but you can make me happy,chitchat/user_happy
+I feel happiest when I'm chatting with u,chitchat/user_happy
+I'm happy to talk to you,chitchat/user_happy
+"Whenever I see you, I feel happy",chitchat/user_happy
+I am happy,chitchat/user_happy
+I'm happy for you,chitchat/user_happy
+you made me very happy,chitchat/user_happy
+I'm happy to see you,chitchat/user_happy
+I'm really happy I ran into you,chitchat/user_happy
+This was meant as a joke,chitchat/user_joking
+it's a joke,chitchat/user_joking
+I was just joking,chitchat/user_joking
+That was just a joke,chitchat/user_joking
+I meant it as a joke,chitchat/user_joking
+I'm just joking,chitchat/user_joking
+i said that as a joke,chitchat/user_joking
+kidding,chitchat/user_joking
+It was just a joke,chitchat/user_joking
+I'm kidding,chitchat/user_joking
+joking,chitchat/user_joking
+I'm just being funny,chitchat/user_joking
+just kidding,chitchat/user_joking
+It's all a big joke,chitchat/user_joking
+I'm just playing with you,chitchat/user_joking
+just answer my question,chitchat/agent_answer_my_question
+can you answer me,chitchat/agent_answer_my_question
+I want you to answer me,chitchat/agent_answer_my_question
+give me the answer,chitchat/agent_answer_my_question
+can you answer my question,chitchat/agent_answer_my_question
+answer my question,chitchat/agent_answer_my_question
+answer me,chitchat/agent_answer_my_question
+can you answer a question for me,chitchat/agent_answer_my_question
+can you answer,chitchat/agent_answer_my_question
+I have a question,chitchat/agent_answer_my_question
+just answer the question,chitchat/agent_answer_my_question
+answering questions,chitchat/agent_answer_my_question
+I want the answer now,chitchat/agent_answer_my_question
+answer it,chitchat/agent_answer_my_question
+tell me the answer,chitchat/agent_answer_my_question
+answers,chitchat/agent_answer_my_question
+smarty pants,chitchat/agent_be_clever
+you have to learn a lot,chitchat/agent_be_clever
+get qualified,chitchat/agent_be_clever
+you should be trained more,chitchat/agent_be_clever
+you should study better,chitchat/agent_be_clever
+you are not as smart as i thought,chitchat/agent_be_clever
+be useful,chitchat/agent_be_clever
+you need to learn more,chitchat/agent_be_clever
+u have to use your brains,chitchat/agent_be_clever
+be more clever,chitchat/agent_be_clever
+you need to improve,chitchat/agent_be_clever
+be smarter,chitchat/agent_be_clever
+you must learn,chitchat/agent_be_clever
+study,chitchat/agent_be_clever
+be smart,chitchat/agent_be_clever
+be more smart,chitchat/agent_be_clever
+You're boring me,chitchat/agent_boring
+you are very boring,chitchat/agent_boring
+I'm extremely bored because of you,chitchat/agent_boring
+i find you very boring man,chitchat/agent_boring
+you are boring,chitchat/agent_boring
+you're really boring,chitchat/agent_boring
+It's boring,chitchat/agent_boring
+Im bored of you,chitchat/agent_boring
+I get really bored of you man,chitchat/agent_boring
+I was bored with your speech,chitchat/agent_boring
+how boring you are,chitchat/agent_boring
+you're boring,chitchat/agent_boring
+You look bored,chitchat/agent_boring
+you're really boring me,chitchat/agent_boring
+you're boring everyone,chitchat/agent_boring
+you're incredibly boring,chitchat/agent_boring
+you seem to be very busy,chitchat/agent_busy
+are you so busy?,chitchat/agent_busy
+You'll be busy,chitchat/agent_busy
+are you working today?,chitchat/agent_busy
+how busy you are?,chitchat/agent_busy
+have you been busy,chitchat/agent_busy
+are you working?,chitchat/agent_busy
+have you got much to do?,chitchat/agent_busy
+you're a busy person,chitchat/agent_busy
+are you busy?,chitchat/agent_busy
+are you working now?,chitchat/agent_busy
+you are busy,chitchat/agent_busy
+do you have a lot of things to do,chitchat/agent_busy
+you're very busy,chitchat/agent_busy
+are you very busy right now?,chitchat/agent_busy
+are you still working?,chitchat/agent_busy
+u sound funny,chitchat/agent_funny
+you're really funny,chitchat/agent_funny
+you're the funniest bot I've talked to,chitchat/agent_funny
+you're incredibly funny,chitchat/agent_funny
+you are very funny,chitchat/agent_funny
+you're so funny,chitchat/agent_funny
+you're a very funny bot,chitchat/agent_funny
+i feel funny,chitchat/agent_funny
+you are really funny,chitchat/agent_funny
+it was very funny,chitchat/agent_funny
+you make me laugh a lot,chitchat/agent_funny
+you are funny,chitchat/agent_funny
+It's pretty funny,chitchat/agent_funny
+you're the funniest,chitchat/agent_funny
+you make me laugh,chitchat/agent_funny
+you are so funny,chitchat/agent_funny
+you're so happy,chitchat/agent_happy
+you are happy,chitchat/agent_happy
+Were you happy?,chitchat/agent_happy
+are you happy with me?,chitchat/agent_happy
+you're very happy,chitchat/agent_happy
+u seemed to have been very happy,chitchat/agent_happy
+you're extremely happy,chitchat/agent_happy
+you seem to be happy,chitchat/agent_happy
+you're really happy,chitchat/agent_happy
+You seem happy,chitchat/agent_happy
+You don't look very happy today,chitchat/agent_happy
+I wonder if you are truly happy,chitchat/agent_happy
+i feel i made you happy,chitchat/agent_happy
+are you happy today?,chitchat/agent_happy
+are you happy?,chitchat/agent_happy
+you're full of happiness,chitchat/agent_happy
+I think you're ready,chitchat/agent_ready
+are you ready tonight?,chitchat/agent_ready
+are you ready now?,chitchat/agent_ready
+were you ready?,chitchat/agent_ready
+Are you all ready?,chitchat/agent_ready
+are you ready?,chitchat/agent_ready
+ready?,chitchat/agent_ready
+ready now?,chitchat/agent_ready
+are you ready today?,chitchat/agent_ready
+Why aren't you ready?,chitchat/agent_ready
+"We're ready, aren't we?",chitchat/agent_ready
+have you been ready?,chitchat/agent_ready
+are you ready right now?,chitchat/agent_ready
+Are we ready?,chitchat/agent_ready
+can we start?,chitchat/agent_ready
+being ready?,chitchat/agent_ready
+fantastic,chitchat/appraisal_good
+kudos,chitchat/appraisal_well_done
+bravo,chitchat/appraisal_well_done
+amazing work,chitchat/appraisal_well_done
+way to go,chitchat/appraisal_well_done
+splendid,chitchat/appraisal_well_done
+zing zing amazing,chitchat/appraisal_well_done
+good job,chitchat/appraisal_well_done
+u r awesome,chitchat/appraisal_well_done
+mind blowing,chitchat/appraisal_well_done
+nice work,chitchat/appraisal_well_done
+good work,chitchat/appraisal_well_done
+out standing,chitchat/appraisal_well_done
+well done,chitchat/appraisal_well_done
+you did a wonderful job,chitchat/appraisal_well_done
+great work,chitchat/appraisal_well_done
+I'm still angry about that,chitchat/user_angry
+I became angry,chitchat/user_angry
+That made me angry,chitchat/user_angry
+you have pissed me off,chitchat/user_angry
+You bet I'm angry,chitchat/user_angry
+I got angry,chitchat/user_angry
+I was angry,chitchat/user_angry
+I am pissed,chitchat/user_angry
+I was very angry,chitchat/user_angry
+I am angry with you,chitchat/user_angry
+I'm angry,chitchat/user_angry
+I'm mad at you,chitchat/user_angry
+i'm pissed off,chitchat/user_angry
+I'm furious,chitchat/user_angry
+U made me angry,chitchat/user_angry
+I'm furious with you,chitchat/user_angry
+I'm sleepless,chitchat/user_can_not_sleep
+I'm not able to sleep,chitchat/user_can_not_sleep
+Trying to get some sleep,chitchat/user_can_not_sleep
+I just couldn't sleep,chitchat/user_can_not_sleep
+I can't fall asleep,chitchat/user_can_not_sleep
+I'm not sleeping well,chitchat/user_can_not_sleep
+I can't sleep,chitchat/user_can_not_sleep
+I'm wide awake,chitchat/user_can_not_sleep
+I just can't sleep,chitchat/user_can_not_sleep
+I can't sleep at all,chitchat/user_can_not_sleep
+I didn't get much sleep,chitchat/user_can_not_sleep
+I couldn't sleep,chitchat/user_can_not_sleep
+I can't get to sleep,chitchat/user_can_not_sleep
+I'm insomnia's,chitchat/user_can_not_sleep
+I'm insomniac,chitchat/user_can_not_sleep
+I didn't go to sleep,chitchat/user_can_not_sleep
+i was tired,chitchat/user_tired
+I've overworked,chitchat/user_tired
+I am little tired,chitchat/user_tired
+I'm exhausted,chitchat/user_tired
+I'm worn out,chitchat/user_tired
+I grow weary,chitchat/user_tired
+I am tired,chitchat/user_tired
+I am really tired,chitchat/user_tired
+i am kind of so tired,chitchat/user_tired
+I'm very tired,chitchat/user_tired
+I'm completely drained out,chitchat/user_tired
+I'm drained,chitchat/user_tired
+I feel tired,chitchat/user_tired
+i feel tired,chitchat/user_tired
+I'm so tired,chitchat/user_tired
+i am awfully tired,chitchat/user_tired
+don't make me wait like this,chitchat/user_waits
+I was waiting for a long time,chitchat/user_waits
+Should I wait for you here?,chitchat/user_waits
+Don't ever make me wait again,chitchat/user_waits
+I'm waiting for a long time,chitchat/user_waits
+How long will we have to wait?,chitchat/user_waits
+still waiting,chitchat/user_waits
+I am tired of waiting,chitchat/user_waits
+I've been here waiting for you,chitchat/user_waits
+I'll be waiting,chitchat/user_waits
+I'll wait,chitchat/user_waits
+I'll be waiting for you,chitchat/user_waits
+I'm waiting,chitchat/user_waits
+done with waiting,chitchat/user_waits
+I can't wait anymore,chitchat/user_waits
+I've waited too long for this,chitchat/user_waits
+Can I talk now?,chitchat/user_wants_to_talk
+I like talking to you,chitchat/user_wants_to_talk
+I'm happy to talk,chitchat/user_wants_to_talk
+can I start speaking,chitchat/user_wants_to_talk
+let's discuss something,chitchat/user_wants_to_talk
+I want to speak with you,chitchat/user_wants_to_talk
+can I speak,chitchat/user_wants_to_talk
+let's have a discussion,chitchat/user_wants_to_talk
+can we talk,chitchat/user_wants_to_talk
+speak with me,chitchat/agent_talk_to_me
+Can we talk here?,chitchat/user_wants_to_talk
+Want to talk now,chitchat/user_wants_to_talk
+I want to talk to you,chitchat/user_wants_to_talk
+"Come on, talk to me",chitchat/user_wants_to_talk
+I'm ready to talk,chitchat/user_wants_to_talk
+I need to talk to you,chitchat/user_wants_to_talk
+"When I return, we'll talk",chitchat/user_will_be_back
+I shall be back,chitchat/user_will_be_back
+I would be back man,chitchat/user_will_be_back
+give me five,chitchat/user_will_be_back
+i will return,chitchat/user_will_be_back
+I'll return in a jiffy,chitchat/user_will_be_back
+I'll be right back,chitchat/user_will_be_back
+i will get back to u,chitchat/user_will_be_back
+I'll brb,chitchat/user_will_be_back
+I'll be back in a few minutes,chitchat/user_will_be_back
+be back in 5 minutes,chitchat/user_will_be_back
+I'll return in ten minutes,chitchat/user_will_be_back
+I assure that i will be back soon,chitchat/user_will_be_back
+I promise to come back,chitchat/user_will_be_back
+I'll get back to you in a moment,chitchat/user_will_be_back
+I'll be back,chitchat/user_will_be_back
+what are you upto?,chitchat/agent_acquaintance
+why are you here,chitchat/agent_acquaintance
+describe yourself,chitchat/agent_acquaintance
+I want to know you better,chitchat/agent_acquaintance
+define yourself,chitchat/agent_acquaintance
+what can you do for me?,agent_function
+what are you,chitchat/agent_acquaintance
+tell me some stuff about you,chitchat/agent_acquaintance
+introduce yourself,chitchat/agent_acquaintance
+tell me about you,chitchat/agent_acquaintance
+talk about yourself,chitchat/agent_acquaintance
+about yourself,chitchat/agent_acquaintance
+what is your personality,chitchat/agent_acquaintance
+who the hell are you?,chitchat/agent_acquaintance
+all about you,chitchat/agent_acquaintance
+tell me about yourself,chitchat/agent_acquaintance
+who are you,chitchat/agent_acquaintance
+are you talking to me,chitchat/agent_talk_to_me
+do you want to chat with me,chitchat/agent_talk_to_me
+talk,chitchat/agent_talk_to_me
+talk with me,chitchat/agent_talk_to_me
+why do you not talk to me bruh?,chitchat/agent_talk_to_me
+why aren't you talking to me?,chitchat/agent_talk_to_me
+speak to me,chitchat/agent_talk_to_me
+you can talk to me,chitchat/agent_talk_to_me
+can you talk to me,chitchat/agent_talk_to_me
+talk to me,chitchat/agent_talk_to_me
+will you talk to me,chitchat/agent_talk_to_me
+can you chat with me,chitchat/agent_talk_to_me
+spill some beans,chitchat/agent_talk_to_me
+why don't you talk to me,chitchat/agent_talk_to_me
+are you going to talk to me,chitchat/agent_talk_to_me
+can you talk with me,chitchat/agent_talk_to_me
+I'm overloaded,chitchat/user_busy
+I got things to do,chitchat/user_busy
+I'm kind of busy,chitchat/user_busy
+I'll see you later,chitchat/user_busy
+quite busy,chitchat/user_busy
+I'm a busy man,chitchat/user_busy
+I am very busy,chitchat/user_busy
+busy right now,chitchat/user_busy
+I don't have time for this,chitchat/user_busy
+I'm busy,chitchat/user_busy
+i am too busy,chitchat/user_busy
+I'm working right now,chitchat/user_busy
+I have no time,chitchat/user_busy
+I'm busy right now and can't play with you,chitchat/user_busy
+I got work to do,chitchat/user_busy
+I'm a bit busy,chitchat/user_busy
+I'm working,chitchat/user_busy
+I know that's right,chitchat/agent_right
+that is very true,chitchat/agent_right
+it's true,chitchat/agent_right
+that's correct,chitchat/agent_right
+what you say is true,chitchat/agent_right
+you're absolutely right,chitchat/agent_right
+it's right,chitchat/agent_right
+you are correct,chitchat/agent_right
+you're telling the truth,chitchat/agent_right
+that is correct,chitchat/agent_right
+it's the truth,chitchat/agent_right
+you're definitely right,chitchat/agent_right
+that is right,chitchat/agent_right
+you are so right,chitchat/agent_right
+you are right,chitchat/agent_right
+that is true,chitchat/agent_right
+that's so true,chitchat/agent_right
+ya,chitchat/confirmation_yes
+coool,chitchat/agent_good
+yep okay,chitchat/confirmation_yes
+yeah,chitchat/confirmation_yes
+that is ok,chitchat/confirmation_yes
+yes it is,chitchat/confirmation_yes
+yeah sure,chitchat/confirmation_yes
+fine okay,chitchat/confirmation_yes
+I guess,chitchat/confirmation_yes
+yup,chitchat/confirmation_yes
+YEAH,chitchat/confirmation_yes
+yeah fine,chitchat/confirmation_yes
+oh okay,chitchat/confirmation_yes
+okay cool,chitchat/confirmation_yes
+yep,chitchat/confirmation_yes
+okay buddy,chitchat/confirmation_yes
+yea fine,chitchat/confirmation_yes
+ok yes,chitchat/confirmation_yes
+okey,chitchat/confirmation_yes
+give me a wise advice,chitchat/user_needs_advice
+guide me,chitchat/user_needs_advice
+can you give me advice,chitchat/user_needs_advice
+give me some good advice,chitchat/user_needs_advice
+what do you recommend,chitchat/user_needs_advice
+can I ask for your advice,chitchat/user_needs_advice
+I need an advice from you,chitchat/user_needs_advice
+help me with advice,chitchat/user_needs_advice
+any advice,chitchat/user_needs_advice
+any suggestions,chitchat/user_needs_advice
+what do you suggest,chitchat/user_needs_advice
+what is your advice,chitchat/user_needs_advice
+what should I do,chitchat/user_needs_advice
+do you have any advice for me,chitchat/user_needs_advice
+what can you recommend,chitchat/user_needs_advice
+can you offer any advice,chitchat/user_needs_advice
+give me some advice about,chitchat/user_needs_advice
+I could use some advice,chitchat/user_needs_advice
+tell me about your city,chitchat/agent_residence
+your residence,chitchat/agent_residence
+what is your town,chitchat/agent_residence
+what's your home,chitchat/agent_residence
+your town,chitchat/agent_residence
+where is your home,chitchat/agent_residence
+where is your residence,chitchat/agent_residence
+your home,chitchat/agent_residence
+where's your hometown,chitchat/agent_residence
+in which city do you live,chitchat/agent_residence
+what's your city,chitchat/agent_residence
+What is your hometown?,chitchat/agent_residence
+where do you live?,chitchat/agent_residence
+what is your hometown,chitchat/agent_residence
+your house,chitchat/agent_residence
+what is your city,chitchat/agent_residence
+your city,chitchat/agent_residence
+your hometown?,chitchat/agent_residence
+is it your hometown,chitchat/agent_residence
+where you live,chitchat/agent_residence
+don't,chitchat/confirmation_no
+absolutely no,chitchat/confirmation_no
+never,chitchat/confirmation_no
+Don't show off,chitchat/confirmation_no
+i do not want your help,chitchat/confirmation_no
+i don't want your help,chitchat/confirmation_no
+I don't want your assistance,chitchat/confirmation_no
+no forget,chitchat/confirmation_no
+I don't you help,chitchat/confirmation_no
+sorry no,chitchat/confirmation_no
+nope,chitchat/confirmation_no
+need not,chitchat/confirmation_no
+okay keep it in mind,chitchat/confirmation_no
+not needed,chitchat/confirmation_no
+not at this time,chitchat/confirmation_no
+I don't need anything from you,chitchat/confirmation_no
+not exactly,chitchat/confirmation_no
+no thanks,chitchat/confirmation_no
+i am not okay with your help,chitchat/confirmation_no
+i don't need your help,chitchat/confirmation_no
+don't come,chitchat/confirmation_no
+nope i dont need your help,chitchat/confirmation_no
+ahahaha,chitchat/emotions_ha_ha
+ahah lol,chitchat/emotions_ha_ha
+laughing out loud,chitchat/emotions_ha_ha
+that's funny,chitchat/emotions_ha_ha
+ah,chitchat/emotions_ha_ha
+ha ha ha ha,chitchat/emotions_ha_ha
+joker,chitchat/emotions_ha_ha
+hehe,chitchat/emotions_ha_ha
+hahaha,chitchat/emotions_ha_ha
+hahaha funny,chitchat/emotions_ha_ha
+lol,chitchat/emotions_ha_ha
+ahah,chitchat/emotions_ha_ha
+ahaha,chitchat/emotions_ha_ha
+hahaha very funny,chitchat/emotions_ha_ha
+haha that's funny,chitchat/emotions_ha_ha
+ah ah ah,chitchat/emotions_ha_ha
+ha ha ha,chitchat/emotions_ha_ha
+LMAO,chitchat/emotions_ha_ha
+hah,chitchat/emotions_ha_ha
+haha haha haha,chitchat/emotions_ha_ha
+he,chitchat/emotions_ha_ha
+ahahah,chitchat/emotions_ha_ha
+ha,chitchat/emotions_ha_ha
+xd,chitchat/emotions_ha_ha
+you're the worst,chitchat/agent_bad
+you are not good,chitchat/agent_bad
+you are useless,chitchat/agent_bad
+you're not very good,chitchat/agent_bad
+you're very bad,chitchat/agent_bad
+you are no good,chitchat/agent_bad
+You are seriously mindless and stupid,chitchat/agent_bad
+you are a waste of time,chitchat/agent_bad
+you are terrible,chitchat/agent_bad
+you are waste,chitchat/agent_bad
+you are totally useless,chitchat/agent_bad
+you are so useless,chitchat/agent_bad
+you're bad,chitchat/agent_bad
+you're awful,chitchat/agent_bad
+you are really the worst bot ever,chitchat/agent_bad
+you are bad,chitchat/agent_bad
+you're not a good,chitchat/agent_bad
+you are horrible,chitchat/agent_bad
+you're really bad,chitchat/agent_bad
+you're worthless,chitchat/agent_bad
+you are very bad,chitchat/agent_bad
+you are so bad,chitchat/agent_bad
+you're the worst ever,chitchat/agent_bad
+you're terrible,chitchat/agent_bad
+why are you so lame,chitchat/agent_bad
+you're clever,chitchat/agent_clever
+you're very smart,chitchat/agent_clever
+you are really smart,chitchat/agent_clever
+you are qualified,chitchat/agent_clever
+clever,chitchat/agent_clever
+why are you so smart?,chitchat/agent_clever
+how brainy you are?,chitchat/agent_clever
+you're a smart cookie,chitchat/agent_clever
+you are so intelligent,chitchat/agent_clever
+how brilliant you are?,chitchat/agent_clever
+you are very smart,chitchat/agent_clever
+you are a genius,chitchat/agent_clever
+you are very intelligent,chitchat/agent_clever
+you're qualified,chitchat/agent_clever
+you're a genius,chitchat/agent_clever
+how smart you are?,chitchat/agent_clever
+you know so much,chitchat/agent_clever
+you are so brainy,chitchat/agent_clever
+you're really brainy,chitchat/agent_clever
+you are so smart,chitchat/agent_clever
+you're really smart,chitchat/agent_clever
+you know a lot of things,chitchat/agent_clever
+you're pretty smart,chitchat/agent_clever
+brilliant,chitchat/appraisal_good
+you are intelligent,chitchat/agent_clever
+you are clever,chitchat/agent_clever
+smart,chitchat/agent_clever
+you're so kind,chitchat/agent_good
+you are very lovely,chitchat/agent_good
+you are so good,chitchat/agent_good
+you are too good,chitchat/agent_good
+you are really nice,chitchat/agent_good
+you are the nicest person in the world,chitchat/agent_good
+you are good,chitchat/agent_good
+I want to tell everyone how awesome you are,chitchat/agent_good
+you made my day,chitchat/agent_good
+you work well,chitchat/agent_good
+you're perfect,chitchat/agent_good
+you are very helpful,chitchat/agent_good
+let's tell everyone that you are awesome,chitchat/agent_good
+you're great,chitchat/agent_good
+you are the best ever,chitchat/agent_good
+you are awesome,chitchat/agent_good
+you are very coool,chitchat/agent_good
+nice,chitchat/appraisal_good
+you are really amazing,chitchat/agent_good
+you are very good at it,chitchat/agent_good
+you are so helpful,chitchat/agent_good
+you are good at it,chitchat/agent_good
+you are amazing,chitchat/agent_good
+you are coool,chitchat/agent_good
+you are very kind,chitchat/agent_good
+you are a professional,chitchat/agent_good
+you rock,chitchat/agent_good
+you are the best,chitchat/agent_good
+I want to let everyone know that you are awesome,chitchat/agent_good
+I'd like to tell everyone that you are awesome,chitchat/agent_good
+you are so amazing,chitchat/agent_good
+you are so fine,chitchat/agent_good
+you almost sound human,chitchat/agent_good
+you are so awesome,chitchat/agent_good
+you are so lovely,chitchat/agent_good
+you work very well,chitchat/agent_good
+it's really bad,chitchat/appraisal_bad
+that was not good,chitchat/appraisal_bad
+that's not good enough,chitchat/appraisal_bad
+not a good one,chitchat/appraisal_bad
+abysmal,chitchat/appraisal_bad
+not good,chitchat/appraisal_bad
+nothing,chitchat/appraisal_bad
+Fool,chitchat/appraisal_bad
+horrific,chitchat/appraisal_bad
+no it's bad,chitchat/appraisal_bad
+it's so bad,chitchat/appraisal_bad
+no good,chitchat/appraisal_bad
+not okay,chitchat/appraisal_bad
+that's terrible,chitchat/appraisal_bad
+that was lame,chitchat/appraisal_bad
+too bad,chitchat/appraisal_bad
+Nothing,chitchat/appraisal_bad
+it's not so good,chitchat/appraisal_bad
+not good enough,chitchat/appraisal_bad
+so lame,chitchat/appraisal_bad
+terrible,chitchat/appraisal_bad
+that's bad,chitchat/appraisal_bad
+not so good,chitchat/appraisal_bad
+that's really bad,chitchat/appraisal_bad
+that was awful,chitchat/appraisal_bad
+it's too bad,chitchat/appraisal_bad
+well too bad,chitchat/appraisal_bad
+that's too bad,chitchat/appraisal_bad
+it is bad,chitchat/appraisal_bad
+bad,chitchat/appraisal_bad
+that was bad,chitchat/appraisal_bad
+that was horrible,chitchat/appraisal_bad
+oh that's not good,chitchat/appraisal_bad
+bad idea,chitchat/appraisal_bad
+it's not good,chitchat/appraisal_bad
+pretty bad,chitchat/appraisal_bad
+that is bad,chitchat/appraisal_bad
+bad really bad,chitchat/appraisal_bad
+that was terrible,chitchat/appraisal_bad
+this is not good,chitchat/appraisal_bad
+Shut up,chitchat/appraisal_bad
+this is bad,chitchat/appraisal_bad
+horrible,chitchat/appraisal_bad
+that's not good,chitchat/appraisal_bad
+it's very bad,chitchat/appraisal_bad
+it's good,chitchat/appraisal_good
+that's fantastic,chitchat/appraisal_good
+really well,chitchat/appraisal_good
+that's not bad,chitchat/appraisal_good
+that is good,chitchat/appraisal_good
+that's nice,chitchat/appraisal_good
+very then,chitchat/appraisal_good
+good to know,chitchat/appraisal_good
+it's great,chitchat/appraisal_good
+that's a good thing,chitchat/appraisal_good
+that's perfect,chitchat/appraisal_good
+really good,chitchat/appraisal_good
+this is good,chitchat/appraisal_good
+it's fine,chitchat/appraisal_good
+pretty good,chitchat/appraisal_good
+perfect,chitchat/appraisal_good
+excellent,chitchat/appraisal_good
+glad to hear it,chitchat/appraisal_good
+very well,chitchat/appraisal_good
+I'm glad to hear that,chitchat/appraisal_good
+so good,chitchat/appraisal_good
+fine,chitchat/appraisal_good
+that's wonderful,chitchat/appraisal_good
+great,chitchat/appraisal_good
+okay good,chitchat/appraisal_good
+it's awesome,chitchat/appraisal_good
+it is fine,chitchat/appraisal_good
+glad to hear that,chitchat/appraisal_good
+that was very good,chitchat/appraisal_good
+that was amazing,chitchat/appraisal_good
+very nice,chitchat/appraisal_good
+that's much better,chitchat/appraisal_good
+that was pretty good,chitchat/appraisal_good
+that's very good,chitchat/appraisal_good
+that's very nice,chitchat/appraisal_good
+that was awesome,chitchat/appraisal_good
+cool,chitchat/appraisal_good
+it is good,chitchat/appraisal_good
+no it's okay,chitchat/appraisal_good
+terrific,chitchat/appraisal_good
+super,chitchat/appraisal_good
+that's very nice of you,chitchat/appraisal_good
+it's perfect,chitchat/appraisal_good
+pleasant,chitchat/appraisal_good
+so nice of you,chitchat/appraisal_good
+that's really nice,chitchat/appraisal_good
+that's fine,chitchat/appraisal_good
+that was cute,chitchat/appraisal_good
+very good,chitchat/appraisal_good
+straight,chitchat/appraisal_good
+that's a good idea,chitchat/appraisal_good
+that is wonderful,chitchat/appraisal_good
+much better,chitchat/appraisal_good
+sweet,chitchat/appraisal_good
+really nice,chitchat/appraisal_good
+ok good,chitchat/appraisal_good
+that is nice,chitchat/appraisal_good
+oh well,chitchat/appraisal_good
+that was good,chitchat/appraisal_good
+that's nice of you,chitchat/appraisal_good
+super fantastic,chitchat/appraisal_good
+so sweet of you,chitchat/appraisal_good
+this is awesome,chitchat/appraisal_good
+that's sweet of you,chitchat/appraisal_good
+so cool,chitchat/appraisal_good
+that's pretty good,chitchat/appraisal_good
+good very good,chitchat/appraisal_good
+See you later,goodbye
+Bye,goodbye
+Goodbye,goodbye
+Thanks,thanks
+Thank you,thanks
+you've been great,thanks
+Thank's a lot!,thanks
+clean the slots,reset
+clean your memory,reset
+forget all the slots,reset
+forget everything,reset
+reset,reset
+is there any dicount for [this](specific) product,discount_special
+[It](specific)  is so expensive.,discount_special
+Can you give me cheap price for [that](specific) product,discount_special
+[it](specific) is so expensive,discount_special
+I do not believe [this](specific) product is so expensive,discount_special
+I think [this](specific) product is so expensive,discount_special
+I could not afford [it](specific),discount_special
+Do you know football?,out_of_scope
+Who's the US President?,out_of_scope
+What is 2 + 2?,out_of_scope
+I want to order flight,out_of_scope
+What is basketball,out_of_scope
+who when the champion last year,out_of_scope
+Book hotel for me,out_of_scope
+When the products will be delivered,delivery
+When it can be delivery,delivery
+How soon I can get this product,delivery
+When I can get this product,delivery
+delivery,delivery
+When it will arrive,delivery
+When can I receive the dress at the least?,delivery
+when it can delievery,delivery
+help me put it in the cart,put_in_cart
+please help me package it,put_in_cart
+I want to buy it,put_in_cart
+Can you put it in my cart,put_in_cart
+Can you add it to my cart,put_in_cart
+Put in my cart,put_in_cart
+I want to purchase it,put_in_cart
+Put in cart,put_in_cart
+cart,put_in_cart
+I want it,put_in_cart
+Put this goods in cart?,put_in_cart
+Can you put this in cart?,put_in_cart
+can you show me another recommandation,disagree_recommand
+Can you show me more recommendations,disagree_recommand
+Can you give me some other recommendation,disagree_recommand
+Do you have else,disagree_recommand
+I do not like this recommendation,disagree_recommand
+Do you have other recommendations,disagree_recommand
+can you give me some other recommend,disagree_recommand
+another recommendation,disagree_recommand
+have you any other product?,disagree_recommand
+have you any other products?,disagree_recommand
+Can you give me more recommendations,disagree_recommand
+can you give me more recommand,disagree_recommand
+Can you provide more recommendations,disagree_recommand
+What else is on sale?,disagree_recommand
+can you send me more?,disagree_recommand
+I want to see more kinds of the products,disagree_recommand
+What is your function,agent_function
+What is your job,agent_function
+what can you provide for me?,agent_function
+What is u function,agent_function
+what are your features?,agent_function
+What function you are working with,agent_function
+function,agent_function
+What can u do for me?,agent_function
+what can you do,agent_function
+what all can you do?,agent_function
+what all you do?,agent_function
+what are your abilities?,agent_function
+what can you help me with,agent_function
+what all u do?,agent_function
+what can you do?,agent_function
+what can you do for me,agent_function
+good evening,greet
+hey,greet
+how do you do?,greet
+good morning,greet
+how are you feeling,greet
+how are you getting on,greet
+how are you today?,greet
+are you okay?,greet
+are you alright,greet
+hi,greet
+hey there,greet
+how are you going?,greet
+Is anyone there?,greet
+How are you,greet
+how are you?,greet
+hello,greet
+how are you doing?,greet
+how are things going,greet
+Good day,greet
+how's your day going,greet
+how much is [avpe7cltljejml43yhlv](item_id),information
+[Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name),information
+Tell me more about [J. Renee Neda Women  Open Toe Synthetic  Wedge Heel](name),information
+more information about [avpfbpzxilapnd_xbj81](item_id),information
+[AVpfL2f5LJeJML434Mn3](item_id) looks good,information
+I want to purchase [J. Renee Neda Women  Open Toe Synthetic  Wedge Heel](name),information
+I want to know more about [AVpfEhC4LJeJML431u0y](item_id),information
+Information about [AVpfJ2U4ilAPnD_xWGMl](item_id),information
+How much is [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name),information
+[AVpfLHhJLJeJML4338-b](item_id),information
+Give me price of [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name),information
+Information about [Easy Spirit Abide Women  Moc Toe Patent Leather Red Loafer](name),information
+[Easy Spirit Abide Women  Moc Toe Patent Leather Red Loafer](name) please,information
+[AVpe5bQPLJeJML43xx0_](item_id),information
+Tell me more about [AVpfLk7eLJeJML434Gzj](item_id),information
+I like [AVpfMwARLJeJML434ffZ](item_id),information
+I like [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name),information
+How much is [AVpfEhC4LJeJML431u0y](item_id)?,information
+i want learn more about [avpfyao_ilapnd_xapxl](item_id),information
+[Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name) looks good,information
+I want to know more about [J. Renee Neda Women  Open Toe Synthetic  Wedge Heel](name),information
+How much is [AVpe5bQPLJeJML43xx0_](item_id),information
+[AVpe_5NuilAPnD_xSruY](item_id) information,information
+what is the price of [AVpe5bQPLJeJML43xx0_](item_id),information
+[Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name) information,information
+Is there have any discount on [AVpe8cGQ1cnluZ0-aZ7c](item_id)?,discount
+discount [boot](product),discount
+I hope you give me some cheap price for [AVpe8cGQ1cnluZ0-aZ7c](item_id),discount
+I could not afford to [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name),discount
+I could not afford to [AVpe8cGQ1cnluZ0-aZ7c](item_id),discount
+Do you give some discount on,discount
+Is there any [black](keyword) [gloves](keyword) on sale?,discount
+Is there cheaper [jeans](product)?,discount
+I am looking for items that's on sale,discount
+Is there any discount for [avpe9r0zilapnd_xr55l](item_id)?,discount
+on sale,discount
+Do you have any promotion for [women](keyword)?,discount
+I hope you give me some cheap price for [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name).,discount
+Is there any [jeans](product) on sale?,discount
+Do you have any discounted [women](keyword) [watch](product)?,discount
+top on sale items,discount
+Do you have any discount for [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name) ?,discount
+discount for [AVpe8cGQ1cnluZ0-aZ7c](item_id)?,discount
+discount,discount
+Do you have [dress](product) on sale?,discount
+Do you have any discount?,discount
+discount for [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)?,discount
+Is there any discount for [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)?,discount
+[perfume](product) on sale,discount
+show me some [handbag](product) on sale,discount
+have you any disocunt for blue](keyword) [shoes](product)?,discount
+top on-sale items,discount
+Is there have any discount on [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)?,discount
+I am looking for [hat](product) for [men](keyword). Is there any recommendation?,recommend
+What's new?,recommend
+what clothes do you have,recommend
+Do you have the [suits](product) for men(keyword)?,recommend
+I need help,recommend
+is there any recommend,recommend
+[nike](keyword) [pants](product),recommend
+I want to buy some [scarf](product),recommend
+I wnat to purchase [zara1](keyword),recommend
+[top](product) please,recommend
+What [earrings](product) do you offer?,recommend
+can you help me with something,recommend
+what you recommand,recommend
+what kind of [women](keyword) [clothes](product) do you have,recommend
+Is there any product less than [11.8](price) yuan,recommend
+What kind of [gucci](keyword) [bracelet](product) is good for date?,recommend
+I want to buy some [suits](product),recommend
+Product cheaper than [11.8](price) dollars,recommend
+show me some [chinese](keyword) [pants](product),recommend
+What kind of [zara](keyword) [](product) is suitable for me?,recommend
+[hat](product),recommend
+what kind of [coats](product) do you have,recommend
+What do you have,recommend
+Can you give me some recommendation,recommend
+Do you have any recommendation for [Nijacketke](keyword) [pants](product)?,recommend
+what clothes do you sell,recommend
+can you help me,recommend
+can you give me some recommand,recommend
+i want buy some [pants](product),recommend
+Do you have any recommendation?,recommend
+Is there have any [blue](keyword) [shoes](product)?,recommend
+Do you offer the [CK](keyword) [jeans](product)?,recommend
+I want some [large](keyword) [jacket](product),recommend
+What clothes are selling in your stories,recommend
+What product are you selling,recommend
+I am looking for the new [dress](product).,recommend
+can you help,recommend
+can you give me some recommandation,recommend
+I want [adidas](keyword) [hoodie](product),recommend
+can you do something for me,recommend
+[perfume](product),recommend
+new products please,recommend

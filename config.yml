@@ -1,0 +1,62 @@
+
+
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+pipeline:
+
+  - name: SpacyNLP
+    model: "en_core_web_md"
+    case_sensitive: False
+  - name: SpacyTokenizer
+    intent_tokenization_flag: False
+  - name: SpacyFeaturizer
+    pooling: mean
+
+
+  - name: SpacyEntityExtractor
+    dimensions: ["PERSON", "LOC", "ORG", "PRODUCT", "PRICE"]
+
+  - name: RegexFeaturizer
+
+  - name: RegexEntityExtractor
+    case_sensitive: False
+
+
+  
+  - name: LanguageModelFeaturizer
+    model_name: gpt2
+    model_weights: "m3hrdadfi/gpt2-QA"
+
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 40
+  - name: ResponseSelector
+    epochs: 40
+    retrieval_intent: faq
+  - name: ResponseSelector
+    epochs: 40
+    retrieval_intent: chitchat
+  - name: FallbackClassifier
+    threshold: 0.7
+
+
+  
+  
+  
+  
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
+    core_fallback_threshold: 0.3
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 20

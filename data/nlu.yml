@@ -1,0 +1,42 @@
+version: "3.0"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+- intent: agent_function
+  examples: |
+    - what can you do for me
+    - what can you help me with
+    - what can you do
+- intent: recommend
+  examples: |
+    - i want buy some [pants](product)
+    - what you recommand
+    - what else can you do for me
+    - can you give me some recommandation
+    - can you give me some recommand
+- intent: delivery
+  examples: |
+    - when it can delievery
+- intent: information
+  examples: |
+    - more information about [avpfbpzxilapnd_xbj81](item_id)
+    - how much is [avpe7cltljejml43yhlv](item_id)
+    - i want learn more about [avpfyao_ilapnd_xapxl](item_id)
+    - how much is [avpfyao_ilapnd_xapxl](item_id)
+- intent: discount_special
+  examples: |
+    - [it](specific) is so expensive
+    - I could not afford [it](specific)
+    - Can you give me cheap price for [that](specific) product
+- intent: disagree_recommand
+  examples: |
+    - have you any other product?
+    - Can you give me some other recommmandation
+    - I do not like those, can you send me more?
+    - can you give me more recommand
+    - can you show me another recommandation
+- intent: put_in_cart
+  examples: |
+    - Can you put this in cart?
+    - Put this goods in cart?

@@ -1,0 +1,1440 @@
+version: "3.0"
+
+
+stories:
+
+- story: greetings
+  steps: 
+  - intent: greet
+  - action: utter_greet
+
+- story: bye
+  steps:
+  - intent: goodbye
+  - action: action_bye
+
+
+
+- story: recommand_again
+  steps:
+  - intent: recommend
+  - action: action_recommend
+  - intent: disagree_recommand
+  - action: action_recommend_again
+
+- story: special_information
+  steps:
+  - intent: recommend
+  - action: action_recommend
+  - intent: information
+  - action: action_information
+  - intent: discount_special
+  - action: action_discount_special
+
+
+- story: recommand_disagreement
+  steps:
+  - intent: recommend
+  - action: action_recommend
+  - intent: disagree_recommand
+  - action: action_recommend_again
+  - intent: information
+  - action: action_information
+  - intent: discount
+  - action: action_discount
+
+
+
+- story: recommend
+  steps:
+  - intent: recommend
+  - action: action_recommend
+
+- story: random
+  steps:
+  - intent: recommend
+  - action: action_recommend
+  - intent: information
+  - action: action_information
+  - intent: thanks
+  - action: utter_thanks
+
+- story: discount_information
+  steps:
+  - intent: discount
+  - action: action_discount
+  - intent: information
+  - action: action_information
+  - intent: thanks
+  - action: utter_thanks
+
+- story: discount
+  steps:
+  - intent: discount
+  - action: action_discount
+
+- story: stories
+  steps:
+  - intent: recommend
+  - action: action_recommend
+  - intent: information
+  - action: action_information
+  - intent: discount
+  - action: action_discount
+
+
+- story: stories2
+  steps:
+  - intent: recommend
+  - action: action_recommend
+  - intent: information
+  - action: action_information
+  - intent: discount
+  - action: action_discount
+
+
+
+- story: information
+  steps:
+  - intent: information
+  - action: action_information
+
+- story: stories4
+  steps:
+  - intent: information
+  - action: action_information
+  - intent: discount
+  - action: action_discount
+
+
+- story: stories5
+  steps:
+  - intent: information
+  - action: action_information
+  - intent: discount
+  - action: action_discount
+
+
+- story: stories12
+  steps:
+  - intent: recommend
+  - action: action_recommend
+  - intent: recommend
+  - action: action_recommend
+  - intent: information
+  - action: action_information
+  - intent: discount
+  - action: action_discount
+
+
+- story: stories11
+  steps:
+  - intent: recommend
+  - action: action_recommend
+  - intent: recommend
+  - action: action_recommend
+  - intent: information
+  - action: action_information
+  - intent: discount
+  - action: action_discount
+  - intent: put_in_cart
+  - action: utter_cart
+
+
+- story: stories13
+  steps:
+  - intent: agent_function
+  - action: utter_agent_function
+  - intent: recommend
+  - action: action_recommend
+  - intent: information
+  - action: action_information
+  - intent: discount
+  - action: action_discount
+
+
+- story: stories14
+  steps:
+  - intent: recommend
+  - action: action_recommend
+  - intent: information
+  - action: action_information
+  - intent: discount
+  - action: action_discount
+  - intent: put_in_cart
+  - action: utter_cart
+  - intent: delivery
+  - action: utter_delivery
+
+
+rules:
+  - rule: reset slot
+    steps:
+    - intent: reset
+    - action: action_reset
+  - rule: respond to FAQs
+    steps:
+    - intent: faq
+    - action: utter_faq
+  - rule: respond to chitchat
+    steps:
+    - intent: chitchat
+    - action: utter_chitchat
+  - rule: out-of-scope
+    steps:
+    - intent: out_of_scope
+    - action: utter_out_of_scope
+  - rule: fallback
+    steps:
+    - intent: nlu_fallback
+    - action: utter_please_rephrase
+  - rule: discount
+    steps:
+    - intent: discount
+    - action: action_discount
+  - rule: information
+    steps:
+    - intent: information
+    - action: action_information
+  - rule: recommend
+    steps:
+    - intent: recommend
+    - action: action_recommend
+  - rule: delivery
+    steps:
+    - intent: delivery
+    - action: utter_delivery
+  - rule: cart
+    steps:
+    - intent: put_in_cart
+    - action: utter_cart
+  - rule: Agent function
+    steps: 
+    - intent: agent_function
+    - action: utter_agent_function
+  - rule: discount_special
+    steps:
+    - intent: discount_special
+    - action: action_discount_special
+
+  - rule: recommand again
+    steps: 
+    - intent: disagree_recommand
+    - action: action_recommend_again
+
+  - rule: Bye
+    steps:
+    - intent: goodbye
+    - action: action_bye
+    
+nlu:
+- intent: faq/address
+  examples: |
+    - Where is the permanent store?
+    - How to reach store?
+    - Where is clothes store?
+    - Address of clothes store
+- intent: faq/payments
+  examples: |
+    - Do you accept checks?
+    - How should I finish my purchase?
+    - Are you cash only?
+    - Do you take credit cards?
+    - How to make a payment?
+- intent: faq/contact
+  examples: |
+    - Emergency contact details
+    - Contact admin
+    - Contact details of incharge
+    - Can't find answers, how do I contact the store?
+    - Contact details of faculty
+    - Email id of Admin or incharge
+    - How do I contact staff?
+- intent: faq/return
+  examples: |
+    - You send me wrong color
+    - The product is not suit for me
+    - I buy a clothes not correct size
+    - You send me wrong product
+    - i dislike this product
+    - I buy the clothes mistakenly
+    - Do you offer retuen Service
+    - You send me wrong size
+- intent: chitchat/agent_sure
+  examples: |
+    - are you positive?
+    - are you completely sure?
+    - are you sure today?
+    - are you sure about it?
+    - are you fully positive?
+    - are you truly positive?
+    - are you sure right now?
+    - are you sure tonight?
+    - are you so sure?
+- intent: chitchat/agent_there
+  examples: |
+    - you are there
+    - you are here?
+    - are you here ?
+    - are you here
+    - you there?
+    - are you there
+    - are you still here
+    - are you still there
+    - you still there?
+- intent: chitchat/appraisal_welcome
+  examples: |
+    - anytime
+    - my pleasure
+    - welcome here
+    - welcome
+    - you're welcome
+    - that's my pleasure
+    - i'm glad
+    - anything you want
+    - sure welcome
+- intent: chitchat/user_wants_to_see_agent_again
+  examples: |
+    - I want to see you again
+    - I will see you soon
+    - that'd be great to see you again
+    - let's catch up soon
+    - I hope to see you again
+    - would be nice to see you again
+    - I'd be happy to see you again
+    - i want to see you again soon
+    - let's meet soon
+- intent: chitchat/appraisal_no_problem
+  examples: |
+    - no probs
+    - don't worry
+    - don't worry there's no problem
+    - no problem about that
+    - sure no problem
+    - not a problem at all.
+    - yeah, no probs
+    - there's no problem
+    - no problem
+- intent: chitchat/emotions_wow
+  examples: |
+    - wheey
+    - woaah
+    - woah
+    - wooow
+    - whoah
+    - woow
+    - wow wow wow
+    - wow!!
+    - amazing
+    - wow
+- intent: chitchat/user_going_to_bed
+  examples: |
+    - time for us to go to bed
+    - I sometimes feel drowsy in the early afternoon
+    - it's time to go to bed
+    - time to sleep
+    - going to bed now
+    - is it time for bed yet
+    - gonna go to bed
+    - it's bed time
+    - I'd like to go to bed
+- intent: chitchat/agent_real
+  examples: |
+    - you are not real
+    - you are real
+    - are you real?
+    - are you a real person?
+    - I think you are real
+    - glad you're real
+    - are you real
+    - I suppose you're real
+    - you are not fake
+    - you are a real person
+    - are you a real human?
+- intent: chitchat/user_does_not_want_to_talk
+  examples: |
+    - I don't want to talk
+    - I'm not in the mood for chatting
+    - Let's stop talking
+    - I'm not in a mood to talk
+    - bad time for talking
+    - I'm not talking to you anymore
+    - I don't like talking to you
+    - Can u pls stop talking
+    - let's not talk
+    - let's stop talking for a minute
+- intent: chitchat/agent_chatbot
+  examples: |
+    - are you artificially intelligent?
+    - are you a bot
+    - are you just a bot
+    - are you an AI?
+    - you are chatbot
+    - are you a robot
+    - are you a chatbot
+    - you're a robot
+    - are you a program
+    - you're an AI
+    - you are a bot
+- intent: chitchat/dialog_hold_on
+  examples: |
+    - hold on man
+    - wait hold on
+    - hold on
+    - wait one sec
+    - hold on for a sec
+    - wait a sec
+    - oh wait
+    - could you wait
+    - wait please
+    - wait
+    - don't rush
+    - will u pls wait for a sec
+- intent: chitchat/user_back
+  examples: |
+    - I am right back
+    - I'm here again
+    - I am back
+    - I'm here
+    - I got back
+    - look who is back
+    - I'm back again
+    - I'm rb
+    - I'm back
+    - here I am again
+    - am back
+- intent: chitchat/user_looks_like
+  examples: |
+    - am i good looking?
+    - how do I look?
+    - Whom do i look like?
+    - how do I look like
+    - do you know what I look like ?
+    - do u think i look good?
+    - what do you think about my looks
+    - what do I look like
+    - can you tell what I look like ?
+    - what do you think I look like?
+    - any idea of how good i look like?
+    - Ain't i look good?
+- intent: chitchat/user_loves_agent
+  examples: |
+    - I love you
+    - do you love me ?
+    - I think I love you
+    - I love you so much
+    - I love u to the moon and back
+    - I am in love with you
+    - I am in deep love with you
+    - I adore you
+    - loving you
+    - I love you too
+    - you know I love you
+    - my heart is filled with you
+- intent: chitchat/confirmation_cancel
+  examples: |
+    - no just cancel
+    - cancel everything
+    - no cancel cancel
+    - disregard
+    - i want to cancel
+    - cancelled
+    - cancel it now
+    - shall stand cancelled
+    - don't want cancel
+    - cancel soon
+    - nevermind forget about it
+    - nothing just forget it
+    - sorry cancel
+- intent: chitchat/user_here
+  examples: |
+    - here I am
+    - here dude
+    - I'm already here
+    - Look over here
+    - I'm out here
+    - I'm right here
+    - here buddy
+    - I just got here
+    - Now look here
+    - Here i come
+    - I am here
+    - I've not gone anywhere
+    - I'm here only
+- intent: chitchat/user_likes_agent
+  examples: |
+    - of course I like you
+    - yes you are special
+    - I like you too much
+    - you're awesome I like you
+    - I really really really really like you
+    - you're so special
+    - but I like u
+    - I like you too you're one of my favorite people to chat with
+    - I like you just the way you are
+    - I like you
+    - I also like you
+    - good I like you
+    - I like you as you are
+    - I like your smile
+- intent: chitchat/user_excited
+  examples: |
+    - I felt excited
+    - I'm excited to start our friendship
+    - I'm damn excited
+    - I'm very excited
+    - I'm really excited
+    - i'm excited about tomorrow
+    - It was very exciting! I'd like to use this feature again
+    - I am excited
+    - I'm thrilled
+    - How exciting!
+    - I'm hyped
+    - I'm excited about working with you
+    - It's fun and exciting
+    - I am thrilled to talk to you
+- intent: chitchat/user_misses_agent
+  examples: |
+    - I miss you a lot
+    - I'll miss you
+    - I miss talking with you
+    - I've missed you
+    - I missed you
+    - I just miss you
+    - I miss you very much
+    - miss you buddy
+    - I really miss you
+    - I miss you already
+    - I miss you
+    - We'll miss you
+    - I'll miss you so much
+    - miss you
+    - miss you :(
+- intent: chitchat/user_good
+  examples: |
+    - I'm feeling great
+    - I'm in a good mood
+    - good
+    - I'm doing really good
+    - I am good
+    - I'm super good
+    - That feels good
+    - I am really good
+    - I'm doing good
+    - I feel very good
+    - It's good
+    - I'm great thanks
+    - I feel good
+    - I feel good today
+    - I'm doing just great
+- intent: chitchat/user_happy
+  examples: |
+    - i feel happy
+    - I was the happiest man on earth
+    - i was so happy
+    - happy
+    - I'm happy to help
+    - Feeling happy
+    - Nobody but you can make me happy
+    - I feel happiest when I'm chatting with u
+    - I'm happy to talk to you
+    - Whenever I see you, I feel happy
+    - I am happy
+    - I'm happy for you
+    - you made me very happy
+    - I'm happy to see you
+    - I'm really happy I ran into you
+- intent: chitchat/user_joking
+  examples: |
+    - This was meant as a joke
+    - it's a joke
+    - I was just joking
+    - That was just a joke
+    - I meant it as a joke
+    - I'm just joking
+    - i said that as a joke
+    - kidding
+    - It was just a joke
+    - I'm kidding
+    - joking
+    - I'm just being funny
+    - just kidding
+    - It's all a big joke
+    - I'm just playing with you
+- intent: chitchat/agent_answer_my_question
+  examples: |
+    - just answer my question
+    - can you answer me
+    - I want you to answer me
+    - give me the answer
+    - can you answer my question
+    - answer my question
+    - answer me
+    - can you answer a question for me
+    - can you answer
+    - I have a question
+    - just answer the question
+    - answering questions
+    - I want the answer now
+    - answer it
+    - tell me the answer
+    - answers
+- intent: chitchat/agent_be_clever
+  examples: |
+    - smarty pants
+    - you have to learn a lot
+    - get qualified
+    - you should be trained more
+    - you should study better
+    - you are not as smart as i thought
+    - be useful
+    - you need to learn more
+    - u have to use your brains
+    - be more clever
+    - you need to improve
+    - be smarter
+    - you must learn
+    - study
+    - be smart
+    - be more smart
+- intent: chitchat/agent_boring
+  examples: |
+    - You're boring me
+    - you are very boring
+    - I'm extremely bored because of you
+    - i find you very boring man
+    - you are boring
+    - you're really boring
+    - It's boring
+    - Im bored of you
+    - I get really bored of you man
+    - I was bored with your speech
+    - how boring you are
+    - you're boring
+    - You look bored
+    - you're really boring me
+    - you're boring everyone
+    - you're incredibly boring
+- intent: chitchat/agent_busy
+  examples: |
+    - you seem to be very busy
+    - are you so busy?
+    - You'll be busy
+    - are you working today?
+    - how busy you are?
+    - have you been busy
+    - are you working?
+    - have you got much to do?
+    - you're a busy person
+    - are you busy?
+    - are you working now?
+    - you are busy
+    - do you have a lot of things to do
+    - you're very busy
+    - are you very busy right now?
+    - are you still working?
+- intent: chitchat/agent_funny
+  examples: |
+    - u sound funny
+    - you're really funny
+    - you're the funniest bot I've talked to
+    - you're incredibly funny
+    - you are very funny
+    - you're so funny
+    - you're a very funny bot
+    - i feel funny
+    - you are really funny
+    - it was very funny
+    - you make me laugh a lot
+    - you are funny
+    - It's pretty funny
+    - you're the funniest
+    - you make me laugh
+    - you are so funny
+- intent: chitchat/agent_happy
+  examples: |
+    - you're so happy
+    - you are happy
+    - Were you happy?
+    - are you happy with me?
+    - you're very happy
+    - u seemed to have been very happy
+    - you're extremely happy
+    - you seem to be happy
+    - you're really happy
+    - You seem happy
+    - You don't look very happy today
+    - I wonder if you are truly happy
+    - i feel i made you happy
+    - are you happy today?
+    - are you happy?
+    - you're full of happiness
+- intent: chitchat/agent_ready
+  examples: |
+    - I think you're ready
+    - are you ready tonight?
+    - are you ready now?
+    - were you ready?
+    - Are you all ready?
+    - are you ready?
+    - ready?
+    - ready now?
+    - are you ready today?
+    - Why aren't you ready?
+    - We're ready, aren't we?
+    - have you been ready?
+    - are you ready right now?
+    - Are we ready?
+    - can we start?
+    - being ready?
+- intent: chitchat/appraisal_well_done
+  examples: |
+    - fantastic
+    - kudos
+    - bravo
+    - amazing work
+    - way to go
+    - splendid
+    - zing zing amazing
+    - good job
+    - u r awesome
+    - mind blowing
+    - nice work
+    - good work
+    - out standing
+    - well done
+    - you did a wonderful job
+    - great work
+- intent: chitchat/user_angry
+  examples: |
+    - I'm still angry about that
+    - I became angry
+    - That made me angry
+    - you have pissed me off
+    - You bet I'm angry
+    - I got angry
+    - I was angry
+    - I am pissed
+    - I was very angry
+    - I am angry with you
+    - I'm angry
+    - I'm mad at you
+    - i'm pissed off
+    - I'm furious
+    - U made me angry
+    - I'm furious with you
+- intent: chitchat/user_can_not_sleep
+  examples: |
+    - I'm sleepless
+    - I'm not able to sleep
+    - Trying to get some sleep
+    - I just couldn't sleep
+    - I can't fall asleep
+    - I'm not sleeping well
+    - I can't sleep
+    - I'm wide awake
+    - I just can't sleep
+    - I can't sleep at all
+    - I didn't get much sleep
+    - I couldn't sleep
+    - I can't get to sleep
+    - I'm insomnia's
+    - I'm insomniac
+    - I didn't go to sleep
+- intent: chitchat/user_tired
+  examples: |
+    - i was tired
+    - I've overworked
+    - I am little tired
+    - I'm exhausted
+    - I'm worn out
+    - I grow weary
+    - I am tired
+    - I am really tired
+    - i am kind of so tired
+    - I'm very tired
+    - I'm completely drained out
+    - I'm drained
+    - I feel tired
+    - i feel tired
+    - I'm so tired
+    - i am awfully tired
+- intent: chitchat/user_waits
+  examples: |
+    - don't make me wait like this
+    - I was waiting for a long time
+    - Should I wait for you here?
+    - Don't ever make me wait again
+    - I'm waiting for a long time
+    - How long will we have to wait?
+    - still waiting
+    - I am tired of waiting
+    - I've been here waiting for you
+    - I'll be waiting
+    - I'll wait
+    - I'll be waiting for you
+    - I'm waiting
+    - done with waiting
+    - I can't wait anymore
+    - I've waited too long for this
+- intent: chitchat/user_wants_to_talk
+  examples: |
+    - Can I talk now?
+    - I like talking to you
+    - I'm happy to talk
+    - can I start speaking
+    - let's discuss something
+    - I want to speak with you
+    - can I speak
+    - let's have a discussion
+    - can we talk
+    - speak with me
+    - Can we talk here?
+    - Want to talk now
+    - I want to talk to you
+    - Come on, talk to me
+    - I'm ready to talk
+    - I need to talk to you
+- intent: chitchat/user_will_be_back
+  examples: |
+    - When I return, we'll talk
+    - I shall be back
+    - I would be back man
+    - give me five
+    - i will return
+    - I'll return in a jiffy
+    - I'll be right back
+    - i will get back to u
+    - I'll brb
+    - I'll be back in a few minutes
+    - be back in 5 minutes
+    - I'll return in ten minutes
+    - I assure that i will be back soon
+    - I promise to come back
+    - I'll get back to you in a moment
+    - I'll be back
+- intent: chitchat/agent_acquaintance
+  examples: |
+    - what are you upto?
+    - why are you here
+    - describe yourself
+    - I want to know you better
+    - define yourself
+    - what can you do for me?
+    - what are you
+    - tell me some stuff about you
+    - introduce yourself
+    - tell me about you
+    - talk about yourself
+    - about yourself
+    - what is your personality
+    - who the hell are you?
+    - all about you
+    - tell me about yourself
+    - who are you
+- intent: chitchat/agent_talk_to_me
+  examples: |
+    - are you talking to me
+    - do you want to chat with me
+    - talk
+    - talk with me
+    - why do you not talk to me bruh?
+    - why aren't you talking to me?
+    - speak to me
+    - you can talk to me
+    - can you talk to me
+    - talk to me
+    - will you talk to me
+    - can you chat with me
+    - spill some beans
+    - why don't you talk to me
+    - are you going to talk to me
+    - speak with me
+    - can you talk with me
+- intent: chitchat/user_busy
+  examples: |
+    - I'm overloaded
+    - I got things to do
+    - I'm kind of busy
+    - I'll see you later
+    - quite busy
+    - I'm a busy man
+    - I am very busy
+    - busy right now
+    - I don't have time for this
+    - I'm busy
+    - i am too busy
+    - I'm working right now
+    - I have no time
+    - I'm busy right now and can't play with you
+    - I got work to do
+    - I'm a bit busy
+    - I'm working
+- intent: chitchat/agent_right
+  examples: |
+    - I know that's right
+    - that is very true
+    - it's true
+    - that's correct
+    - what you say is true
+    - you're absolutely right
+    - it's right
+    - you are correct
+    - you're telling the truth
+    - that is correct
+    - it's the truth
+    - you're definitely right
+    - that is right
+    - you are so right
+    - you are right
+    - that is true
+    - that's so true
+- intent: chitchat/confirmation_yes
+  examples: |
+    - ya
+    - coool
+    - yep okay
+    - yeah
+    - that is ok
+    - yes it is
+    - yeah sure
+    - fine okay
+    - I guess
+    - yup
+    - YEAH
+    - yeah fine
+    - oh okay
+    - okay cool
+    - yep
+    - okay buddy
+    - yea fine
+    - ok yes
+    - okey
+- intent: chitchat/user_needs_advice
+  examples: |
+    - give me a wise advice
+    - guide me
+    - can you give me advice
+    - give me some good advice
+    - what do you recommend
+    - can I ask for your advice
+    - I need an advice from you
+    - help me with advice
+    - any advice
+    - any suggestions
+    - what do you suggest
+    - what is your advice
+    - what should I do
+    - do you have any advice for me
+    - what can you recommend
+    - can you offer any advice
+    - give me some advice about
+    - I could use some advice
+- intent: chitchat/agent_residence
+  examples: |
+    - tell me about your city
+    - your residence
+    - what is your town
+    - what's your home
+    - your town
+    - where is your home
+    - where is your residence
+    - your home
+    - where's your hometown
+    - in which city do you live
+    - what's your city
+    - What is your hometown?
+    - where do you live?
+    - what is your hometown
+    - your house
+    - what is your city
+    - your city
+    - your hometown?
+    - is it your hometown
+    - where you live
+- intent: chitchat/confirmation_no
+  examples: |
+    - don't
+    - absolutely no
+    - never
+    - Don't show off
+    - i do not want your help
+    - i don't want your help
+    - I don't want your assistance
+    - no forget
+    - I don't you help
+    - sorry no
+    - nope
+    - need not
+    - okay keep it in mind
+    - not needed
+    - not at this time
+    - I don't need anything from you
+    - not exactly
+    - no thanks
+    - i am not okay with your help
+    - i don't need your help
+    - don't come
+    - nope i dont need your help
+- intent: chitchat/emotions_ha_ha
+  examples: |
+    - ahahaha
+    - ahah lol
+    - laughing out loud
+    - that's funny
+    - ah
+    - ha ha ha ha
+    - joker
+    - hehe
+    - hahaha
+    - hahaha funny
+    - lol
+    - ahah
+    - ahaha
+    - hahaha very funny
+    - haha that's funny
+    - ah ah ah
+    - ha ha ha
+    - LMAO
+    - hah
+    - haha haha haha
+    - he
+    - ahahah
+    - ha
+    - xd
+- intent: chitchat/agent_bad
+  examples: |
+    - you're the worst
+    - you are not good
+    - you are useless
+    - you're not very good
+    - you're very bad
+    - you are no good
+    - You are seriously mindless and stupid
+    - you are a waste of time
+    - you are terrible
+    - you are waste
+    - you are totally useless
+    - you are so useless
+    - you're bad
+    - you're awful
+    - you are really the worst bot ever
+    - you are bad
+    - you're not a good
+    - you are horrible
+    - you're really bad
+    - you're worthless
+    - you are very bad
+    - you are so bad
+    - you're the worst ever
+    - you're terrible
+    - why are you so lame
+- intent: chitchat/agent_clever
+  examples: |
+    - you're clever
+    - you're very smart
+    - you are really smart
+    - you are qualified
+    - clever
+    - why are you so smart?
+    - how brainy you are?
+    - you're a smart cookie
+    - you are so intelligent
+    - how brilliant you are?
+    - you are very smart
+    - you are a genius
+    - you are very intelligent
+    - you're qualified
+    - you're a genius
+    - how smart you are?
+    - you know so much
+    - you are so brainy
+    - you're really brainy
+    - you are so smart
+    - you're really smart
+    - you know a lot of things
+    - you're pretty smart
+    - brilliant
+    - you are intelligent
+    - you are clever
+    - smart
+- intent: chitchat/agent_good
+  examples: |
+    - you're so kind
+    - you are very lovely
+    - you are so good
+    - you are too good
+    - you are really nice
+    - you are the nicest person in the world
+    - you are good
+    - I want to tell everyone how awesome you are
+    - you made my day
+    - you work well
+    - you're perfect
+    - you are very helpful
+    - let's tell everyone that you are awesome
+    - you're great
+    - you are the best ever
+    - you are awesome
+    - you are very coool
+    - nice
+    - you are really amazing
+    - you are very good at it
+    - you are so helpful
+    - you are good at it
+    - you are amazing
+    - you are coool
+    - you are very kind
+    - you are a professional
+    - you rock
+    - you are the best
+    - coool
+    - I want to let everyone know that you are awesome
+    - I'd like to tell everyone that you are awesome
+    - you are so amazing
+    - you are so fine
+    - you almost sound human
+    - you are so awesome
+    - you are so lovely
+    - you work very well
+- intent: chitchat/appraisal_bad
+  examples: |
+    - it's really bad
+    - that was not good
+    - that's not good enough
+    - not a good one
+    - abysmal
+    - not good
+    - nothing
+    - Fool
+    - horrific
+    - no it's bad
+    - it's so bad
+    - no good
+    - not okay
+    - that's terrible
+    - that was lame
+    - too bad
+    - Nothing
+    - it's not so good
+    - not good enough
+    - so lame
+    - terrible
+    - that's bad
+    - not so good
+    - that's really bad
+    - that was awful
+    - it's too bad
+    - well too bad
+    - that's too bad
+    - it is bad
+    - bad
+    - that was bad
+    - that was horrible
+    - oh that's not good
+    - bad idea
+    - it's not good
+    - pretty bad
+    - that is bad
+    - bad really bad
+    - that was terrible
+    - this is not good
+    - Shut up
+    - this is bad
+    - horrible
+    - that's not good
+    - it's very bad
+- intent: chitchat/appraisal_good
+  examples: |
+    - it's good
+    - that's fantastic
+    - really well
+    - that's not bad
+    - that is good
+    - that's nice
+    - very then
+    - good to know
+    - it's great
+    - that's a good thing
+    - that's perfect
+    - really good
+    - this is good
+    - it's fine
+    - nice
+    - pretty good
+    - perfect
+    - excellent
+    - glad to hear it
+    - very well
+    - I'm glad to hear that
+    - so good
+    - fine
+    - that's wonderful
+    - great
+    - fantastic
+    - okay good
+    - it's awesome
+    - it is fine
+    - glad to hear that
+    - that was very good
+    - amazing
+    - that was amazing
+    - very nice
+    - that's much better
+    - that was pretty good
+    - that's very good
+    - that's very nice
+    - that was awesome
+    - cool
+    - it is good
+    - no it's okay
+    - good
+    - terrific
+    - super
+    - that's very nice of you
+    - it's perfect
+    - pleasant
+    - so nice of you
+    - that's really nice
+    - brilliant
+    - that's fine
+    - that was cute
+    - very good
+    - straight
+    - that's a good idea
+    - that is wonderful
+    - much better
+    - sweet
+    - really nice
+    - ok good
+    - that is nice
+    - oh well
+    - that was good
+    - that's nice of you
+    - super fantastic
+    - so sweet of you
+    - this is awesome
+    - that's sweet of you
+    - so cool
+    - that's pretty good
+    - good very good
+- intent: goodbye
+  examples: |
+    - See you later
+    - Bye
+    - Goodbye
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thank you
+    - you've been great
+    - Thank's a lot!
+- intent: reset
+  examples: |
+    - clean the slots
+    - clean your memory
+    - forget all the slots
+    - forget everything
+    - reset
+- intent: discount_special
+  examples: |
+    - is there any dicount for [this](specific) product
+    - [It](specific)  is so expensive.
+    - Can you give me cheap price for [that](specific) product
+    - [it](specific) is so expensive
+    - I do not believe [this](specific) product is so expensive
+    - I think [this](specific) product is so expensive
+    - I could not afford [it](specific)
+- intent: out_of_scope
+  examples: |
+    - Do you know football?
+    - Who's the US President?
+    - What is 2 + 2?
+    - I want to order flight
+    - What is basketball
+    - who when the champion last year
+    - Book hotel for me
+- intent: delivery
+  examples: |
+    - When the products will be delivered
+    - When it can be delivery
+    - How soon I can get this product
+    - When I can get this product
+    - delivery
+    - When it will arrive
+    - When can I receive the dress at the least?
+    - when it can delievery
+- intent: put_in_cart
+  examples: |
+    - help me put it in the cart
+    - please help me package it
+    - I want to buy it
+    - Can you put it in my cart
+    - Can you add it to my cart
+    - Put in my cart
+    - I want to purchase it
+    - Put in cart
+    - cart
+    - I want it
+    - Put this goods in cart?
+    - Can you put this in cart?
+- intent: disagree_recommand
+  examples: |
+    - can you show me another recommandation
+    - Can you show me more recommendations
+    - Can you give me some other recommendation
+    - Do you have else
+    - I do not like this recommendation
+    - Do you have other recommendations
+    - can you give me some other recommend
+    - another recommendation
+    - have you any other product?
+    - have you any other products?
+    - Can you give me more recommendations
+    - can you give me more recommand
+    - Can you provide more recommendations
+    - What else is on sale?
+    - can you send me more?
+    - I want to see more kinds of the products
+- intent: agent_function
+  examples: |
+    - What is your function
+    - What is your job
+    - what can you provide for me?
+    - What is u function
+    - what are your features?
+    - What function you are working with
+    - function
+    - What can u do for me?
+    - what can you do for me?
+    - what can you do
+    - what all can you do?
+    - what all you do?
+    - what are your abilities?
+    - what can you help me with
+    - what all u do?
+    - what can you do?
+    - what can you do for me
+- intent: greet
+  examples: |
+    - good evening
+    - hey
+    - how do you do?
+    - good morning
+    - how are you feeling
+    - how are you getting on
+    - how are you today?
+    - are you okay?
+    - are you alright
+    - hi
+    - hey there
+    - how are you going?
+    - Is anyone there?
+    - How are you
+    - how are you?
+    - hello
+    - how are you doing?
+    - how are things going
+    - Good day
+    - how's your day going
+- intent: information
+  examples: |
+    - how much is [avpe7cltljejml43yhlv](item_id)
+    - [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)
+    - Tell me more about [J. Renee Neda Women  Open Toe Synthetic  Wedge Heel](name)
+    - more information about [avpfbpzxilapnd_xbj81](item_id)
+    - [AVpfL2f5LJeJML434Mn3](item_id) looks good
+    - I want to purchase [J. Renee Neda Women  Open Toe Synthetic  Wedge Heel](name)
+    - I want to know more about [AVpfEhC4LJeJML431u0y](item_id)
+    - Information about [AVpfJ2U4ilAPnD_xWGMl](item_id)
+    - How much is [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)
+    - [AVpfLHhJLJeJML4338-b](item_id)
+    - Give me price of [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)
+    - Information about [Easy Spirit Abide Women  Moc Toe Patent Leather Red Loafer](name)
+    - [Easy Spirit Abide Women  Moc Toe Patent Leather Red Loafer](name) please
+    - [AVpe5bQPLJeJML43xx0_](item_id)
+    - Tell me more about [AVpfLk7eLJeJML434Gzj](item_id)
+    - I like [AVpfMwARLJeJML434ffZ](item_id)
+    - I like [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)
+    - How much is [AVpfEhC4LJeJML431u0y](item_id)?
+    - i want learn more about [avpfyao_ilapnd_xapxl](item_id)
+    - [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name) looks good
+    - I want to know more about [J. Renee Neda Women  Open Toe Synthetic  Wedge Heel](name)
+    - How much is [AVpe5bQPLJeJML43xx0_](item_id)
+    - [AVpe_5NuilAPnD_xSruY](item_id) information
+    - what is the price of [AVpe5bQPLJeJML43xx0_](item_id)
+    - [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name) information
+- intent: discount
+  examples: |
+    - Is there have any discount on [AVpe8cGQ1cnluZ0-aZ7c](item_id)?
+    - discount [boot](product)
+    - I hope you give me some cheap price for [AVpe8cGQ1cnluZ0-aZ7c](item_id)
+    - I could not afford to [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)
+    - I could not afford to [AVpe8cGQ1cnluZ0-aZ7c](item_id)
+    - Do you give some discount on
+    - Is there any [black](keyword) [gloves](keyword) on sale?
+    - Is there cheaper [jeans](product)?
+    - I am looking for items that's on sale
+    - Is there any discount for [avpe9r0zilapnd_xr55l](item_id)?
+    - on sale
+    - Do you have any promotion for [women](keyword)?
+    - I hope you give me some cheap price for [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name).
+    - Is there any [jeans](product) on sale?
+    - Do you have any discounted [women](keyword) [watch](product)?
+    - top on sale items
+    - Do you have any discount for [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name) ?
+    - discount for [AVpe8cGQ1cnluZ0-aZ7c](item_id)?
+    - discount
+    - Do you have [dress](product) on sale?
+    - Do you have any discount?
+    - discount for [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)?
+    - Is there any discount for [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)?
+    - [perfume](product) on sale
+    - show me some [handbag](product) on sale
+    - have you any disocunt for blue](keyword) [shoes](product)?
+    - top on-sale items
+    - Is there have any discount on [Zoot Tt Trainer 2.0   Round Toe Synthetic  Sneakers](name)?
+- intent: recommend
+  examples: |
+    - I am looking for [hat](product) for [men](keyword). Is there any recommendation?
+    - What's new?
+    - what clothes do you have
+    - Do you have the [suits](product) for men(keyword)?
+    - I need help
+    - is there any recommend
+    - [nike](keyword) [pants](product)
+    - I want to buy some [scarf](product)
+    - I wnat to purchase [zara1](keyword)
+    - [top](product) please
+    - What [earrings](product) do you offer?
+    - can you help me with something
+    - what you recommand
+    - what kind of [women](keyword) [clothes](product) do you have
+    - Is there any product less than [11.8](price) yuan
+    - What kind of [gucci](keyword) [bracelet](product) is good for date?
+    - I want to buy some [suits](product)
+    - Product cheaper than [11.8](price) dollars
+    - show me some [chinese](keyword) [pants](product)
+    - What kind of [zara](keyword) [](product) is suitable for me?
+    - [hat](product)
+    - what kind of [coats](product) do you have
+    - What do you have
+    - Can you give me some recommendation
+    - Do you have any recommendation for [Nijacketke](keyword) [pants](product)?
+    - what clothes do you sell
+    - can you help me
+    - can you give me some recommand
+    - i want buy some [pants](product)
+    - Do you have any recommendation?
+    - Is there have any [blue](keyword) [shoes](product)?
+    - Do you offer the [CK](keyword) [jeans](product)?
+    - I want some [large](keyword) [jacket](product)
+    - What clothes are selling in your stories
+    - What product are you selling
+    - I am looking for the new [dress](product).
+    - can you help
+    - can you give me some recommandation
+    - I want [adidas](keyword) [hoodie](product)
+    - can you do something for me
+    - [perfume](product)
+    - new products please

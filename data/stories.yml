@@ -1,0 +1,167 @@
+
+version: "3.0"
+stories:
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: agent_function
+  - action: utter_agent_function
+  - intent: recommend
+    entities:
+    - product: pants
+  - slot_was_set:
+    - product: pants
+  - action: action_recommend
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: agent_function
+  - action: utter_agent_function
+  - intent: recommend
+    entities:
+    - product: pants
+  - slot_was_set:
+    - product: pants
+  - action: action_recommend
+  - intent: delivery
+  - action: utter_delivery
+  - intent: information
+    entities:
+    - item_id: avpfbpzxilapnd_xbj81
+    - ORG: avpfbpzxilapnd_xbj81
+  - slot_was_set:
+    - item_id: avpfbpzxilapnd_xbj81
+  - action: action_information
+  - intent: discount_special
+    entities:
+    - specific: it
+  - slot_was_set:
+    - specific: it
+  - action: action_discount_special
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recommend
+  - action: action_recommend
+  - intent: disagree_recommand
+  - action: action_recommend_again
+  - intent: agent_function
+  - action: utter_agent_function
+  - intent: recommend
+  - action: action_recommend
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: agent_function
+  - action: utter_agent_function
+  - intent: recommend
+  - action: action_recommend
+  - intent: disagree_recommand
+  - action: action_recommend_again
+  - intent: information
+    entities:
+    - item_id: avpe7cltljejml43yhlv
+  - slot_was_set:
+    - item_id: avpe7cltljejml43yhlv
+  - action: action_information
+  - intent: discount_special
+    entities:
+    - specific: it
+  - action: action_discount_special
+  - intent: put_in_cart
+  - action: utter_cart
+  - intent: delivery
+  - action: utter_delivery
+  - intent: information
+    entities:
+    - item_id: avpfyao_ilapnd_xapxl
+    - ORG: avpfyao_ilapnd_xapxl
+  - slot_was_set:
+    - item_id: avpfyao_ilapnd_xapxl
+  - action: action_information
+  - intent: discount_special
+    entities:
+    - specific: this
+  - action: action_discount_special
+  - intent: put_in_cart
+  - action: utter_cart
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: agent_function
+  - action: utter_agent_function
+  - intent: recommend
+  - action: action_recommend
+  - intent: disagree_recommand
+  - action: action_recommend_again
+  - intent: information
+    entities:
+    - item_id: avpfyao_ilapnd_xapxl
+    - ORG: avpfyao_ilapnd_xapxl
+  - slot_was_set:
+    - item_id: avpfyao_ilapnd_xapxl
+  - action: action_information
+  - intent: discount_special
+    entities:
+    - specific: it
+  - slot_was_set:
+    - specific: it
+  - action: action_discount_special
+  - intent: put_in_cart
+  - action: utter_cart
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recommend
+  - action: action_recommend
+  - intent: disagree_recommand
+  - action: action_recommend_again
+  - intent: disagree_recommand
+  - action: action_recommend_again
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recommend
+  - action: action_recommend
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recommend
+  - action: action_recommend
+  - intent: disagree_recommand
+  - action: action_recommend_again
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: agent_function
+  - action: utter_agent_function
+  - intent: recommend
+  - action: action_recommend
+  - intent: disagree_recommand
+  - action: action_recommend_again
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: agent_function
+  - action: utter_agent_function
+  - intent: agent_function
+  - action: utter_agent_function
